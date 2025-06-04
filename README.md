@@ -21,4 +21,16 @@ All packages required to run the code, with appropriate versions, are listed in 
     * `.\.venv\Scripts\activate.bat` for **Windows CMD**
 4. Now that your virtual enviroment is active, in the same console, type: `pip install -r requirements.txt` - this will install all required packages
 
+Now that the virtual enviroment is set, you can use it by selecting it as python kernel in any IDE that supports it to run the jupyter notebook file.
+
+You IDE may require you to add this enviroment as a python interpreter manually. In such case, when adding the interpreter, navigate to, and select the following file in the enviroment folder:
+
+> `./.venv/bin/python`
+
+If you want to run the notebook on other enviroments, you can just add a code cell at the beginning of the jupyter file `RR_project.ipynb* with the following command:
+
+> `!pip install -r requirements.txt`
+
+Run this cell before other cells, it will install all required packages on the enviroment that is selected as kernel for the jupyter file. Note that this method is less robust than creating a clean enviroment.
+
 After the neccessary packages are installed the files in the repository can be executed
