@@ -1,6 +1,6 @@
 # RR_project
 
-This repository contains code that tries to reproduce results of the paper [**Do alcohol control policies have the predicted effects on consumption? An analysis of the Baltic countries and Poland 2000-2020**](https://pubmed.ncbi.nlm.nih.gov/36402051/) by Rehm J, et al.
+This repository contains code that tries to reproduce results of the paper [**Do alcohol control policies have the predicted effects on consumption? An analysis of the Baltic countries and Poland 2000-2020**](https://pubmed.ncbi.nlm.nih.gov/36402051/) by Jürgen Rehm, Alexander Tran, Inese Gobiņa, Kinga Janik-Koncewicz, Huan Jiang, Kawon Victoria Kim, Vaida Liutkutė-Gumarov, Laura Miščikienė, Rainer Reile, Robin Room, Mindaugas Štelemėkas, Relika Stoppel, Witold A. Zatoński, Shannon Lange
 
 All packages required to run the code, with appropriate versions, are listed in the `requirements.txt` file.
 
